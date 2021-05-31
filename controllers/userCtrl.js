@@ -566,7 +566,7 @@ const userCtrl = {
             const toName = candidate_user?.name;
             const sentByName = interviewer?.user?.name;
             const button_url = `http://localhost:3000/meetings/join-room/${meetingId}`           
-            const message = "Please join the meeting by pressing on following buttton. Enter Test id: ${testid} to attempt test"
+            const message = `Please join the meeting by pressing on following buttton. Enter Test id: ${testid} to attempt test`
             await sendEmailToCandidate(toEmail, toName, sentByName, button_url, message);
 
             await newMeeting.save()
