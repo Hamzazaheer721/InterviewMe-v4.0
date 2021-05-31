@@ -2046,7 +2046,7 @@ const userCtrl = {
 
             const user = await Users.findOne({_id : mongoose.Types.ObjectId(candidate_user?._id)})
                 if (!user) return res.status(400).json({msg:"User not found"});
-            let candi = `${interviewer_user?.name} has announced result on meeting with ping: ${meeting?.pin}`;
+            let candi = `${interviewer_user?.name} has announced result on meeting with pin: ${meeting?.pin}`;
             user.candidate_notifications.push(candi);
             user.save();
 
