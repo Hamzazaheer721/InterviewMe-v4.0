@@ -1,3 +1,35 @@
+A complete MERN stack video interview assessment portal with emotion detection and voice recognition.
+
+Heruko Deployment:  https://interview-me-by-hamza.herokuapp.com/
+
+Some Important Features
+-> Redux
+-> Monogodb 
+-> Firebase
+-> Facebook login and google login with developers' console permissions.
+-> Communication via auth2 email service.
+-> Express server
+-> Sockets IO
+-> WebRTC i.e, Peerjs for video call.
+-> Firebase for live time chat
+-> Sockets for online status and group chat in video chat module.
+-> Authorization with Json webtokens.
+-> Sessions in Cookies
+-> Material UI styling
+-> Fully Responsive UI 
+-> JQuery (for appending messages in video chat)
+
+
+
+
+
+
+
+
+
+
+Guide to setting this app for initials (20%) implementation:
+
 npm i express mongoose dotenv cors cookie-parser bcrypt jsonwebtoken cloudinary express-fileupload googleapis node-fetch node-mailer
 npm i -D nodemon
 
