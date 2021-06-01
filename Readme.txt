@@ -2,10 +2,10 @@ A complete MERN stack video interview assessment portal with emotion detection a
 
 Heruko Deployment:  https://interview-me-by-hamza.herokuapp.com/
 
-Some Important Features
+Some Important Technologies used.
 -> Redux
--> Monogodb 
--> Firebase
+-> Monogodb (made Realtime with pusher.js)
+-> Firebase (Realtime)
 -> Facebook login and google login with developers' console permissions.
 -> Communication via auth2 email service.
 -> Express server
@@ -18,9 +18,7 @@ Some Important Features
 -> Material UI styling
 -> Fully Responsive UI 
 -> JQuery (for appending messages in video chat)
-
-
-
+-> API for automated quizes
 
 
 
