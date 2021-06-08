@@ -14,7 +14,7 @@ Some Important Technologies used.
 -> Firebase for live time chat
 -> Sockets for online status and group chat in video chat module.
 -> Authorization with Json webtokens.
--> Sessions in Cookies
+-> Sessions and Cookies
 -> Material UI styling
 -> Fully Responsive UI 
 -> JQuery (for appending messages in video chat)
